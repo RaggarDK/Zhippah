@@ -1,0 +1,43 @@
+html,body{
+  
+  margin:0;
+  padding:0;
+  width: 100vw;
+  height: 100vh;
+  background-color: dimgrey;
+}
+
+
+
+#canvas {
+  width: 100vw;
+  height: 100vh;
+  touch-action: none;
+}
+
+
+#menu {
+  display:none;
+  width: 80vw;
+  height: 80vh;
+  left:10%;
+  top:10%;
+  background-color: rgba(1, 94, 110, 0.4);
+  position:absolute;
+  border-radius: 1vh;
+  border:2vh solid rgba(0, 54, 63, 0.4);
+  font-family: fantasy;
+}
+
+#start{
+  left:42%;
+  bottom:0%;
+  position: inherit;
+  width:20vh;
+  height:10vh;
+  background-color: rgba(0, 159, 187, 1);
+  border:0.2vh solid rgba(0, 205, 241, 0.8);
+  font-family: fantasy;
+  color:white;
+  font-size: 6vh;
+}
